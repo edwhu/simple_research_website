@@ -5,7 +5,7 @@ Check out the [website](https://www.edwardshu.com)
 
 ## Features
 
-* Editing Speed: You just edit the index.md.html in markdown format.
+* Editing Speed:  No need for HTML / CSS wrangling. You just edit the index.html in markdown format.
 
 * Convenience: Everything is in 1 file. 
 
