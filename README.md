@@ -5,5 +5,5 @@ No-frills, 1 file, markdown-based portfolio powered by [markdeep](https://casual
 
 * Convenience: Everything is in 1 file. 
 
-* 1-click deployment: No preprocessing / deployment steps at all. Simply publish this repo on github pages to host.
+* 1-click deployment: No preprocessing / deployment steps at all. Simply publish this repo to github to host.
 
