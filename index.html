@@ -126,7 +126,13 @@ function themeToggle() {
     link.type = "image/x-icon";
     link.rel = "shortcut icon";
     link.href = "favicon.ico";
-    top.document.getElementsByTagName("head")[0].appendChild(link);}}</script>
+    top.document.getElementsByTagName("head")[0].appendChild(link);
+    const hours = new Date().getHours()
+    const isDayTime = hours > 6 && hours < 20
+    if (!isDayTime) {
+        themeToggle()
+    }
+    }}</script>
 
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
 <!-- font awesome -->
